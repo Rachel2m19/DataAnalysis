@@ -54,3 +54,8 @@
   3.1.Rescale bounded continuous features  线性放缩到[-1,1]
   3.2.Standardize 均值为0，方差为1
   3.3.Binarize categorical/discrete features one-hot（独热）编码，该离散特征有多少取值，就用多少维来表示该特征
+  
+  
+Reference： 
+1. Blog.csdn.net. 2020. 数据挖掘onehotencoder独热编码和labelencoder标签编码_这里记录着我一点一滴的进步-CSDN博客_标签编码 Label Encoder. 
+  [online] Available at: <https://blog.csdn.net/ccblogger/article/details/80010974> [Accessed 29 June 2020].
