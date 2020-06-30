@@ -1,3 +1,6 @@
 # Data Analysis
 
-有关数据分析的学习笔记
+关于理论
+
+* [模型](Models.md)
+- [Linear Regression 线性回归模型](Linear Regression.md)
