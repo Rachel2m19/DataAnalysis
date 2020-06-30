@@ -1,0 +1,19 @@
+# LASSO Regression 
+This model may be very sensitive to outliers. 
+So we need to made it more robust on them. 
+For that we use the sklearn's Robustscaler() method on pipeline
+
+
+LASSO回归：
+此模型可能对异常值非常敏感。 因此，我们需要使其对它们更加健壮。 
+为此，我们在管道上使用sklearn的Robustscaler（）方法
+
+# Elastic Net Regression 弹性净回归
+again made robust to outliers
+
+# Kernel Ridge Regression
+
+# Gradient Boosting Regression
+With huber loss that makes it robust to outliers
+
+#XGBoost 
