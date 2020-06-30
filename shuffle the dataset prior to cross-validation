@@ -1,0 +1,13 @@
+# We use the cross_val_score function of Sklearn. However this function has not a shuffle attribut, we add then one line of code, 
+in order to shuffle the dataset prior to cross-validation
+
+#我们使用Sklearn的cross_val_score函数。 但是，此函数没有洗牌属性，因此我们添加一行代码，以便在交叉验证之前洗牌数据集
+
+#Validation function
+
+n_folds = 5
+
+def rmsle_cv(model):
+    kf = KFold(n_folds, shuffle=True, random_state=42).get_n_splits(train.values)
+    rmse= np.sqrt(-cross_val_score(model, train.values, y_train, scoring="neg_mean_squared_error", cv = kf))
+    return(rmse)
