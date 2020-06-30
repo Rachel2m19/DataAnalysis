@@ -5,3 +5,4 @@
 * [Models 模型](Models.md)
 * [Linear Regression 线性回归模型](LinearRegression.md)
 * [Ridge Regression](RidgeRegression.md)
+* [LassoRegression](LassoRegression.md)
