@@ -1,4 +1,4 @@
-# Data Analysis
+# Exploring the world through data
 
 关于理论
 
