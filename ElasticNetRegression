@@ -1,4 +1,4 @@
-弹性网络回归（ElasticNet Regression）
+ElasticNet Regression 弹性网络回归
 
 ElasticNet是Lasso回归和岭回归技术的混合体。它使用了L1和L2正则化，也达到了两种技术的效果：
 
@@ -9,3 +9,6 @@ ElasticNet回归的几个关键点：
 • 它鼓励在高度相关变量的情况下的群体效应，而不是像Lasso那样将其中一些置零。当多个特征和另一个特征相关的时候弹性网络非常有用。Lasso 倾向于随机选择其中一个，而弹性网络更倾向于选择两个。
 
 • 对所选变量的数量没有限制。
+
+Reference
+1.
